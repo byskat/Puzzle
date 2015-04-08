@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Selector</title>
+	<script type="text/javascript" src="../jquery/jquery-2.1.3.js"></script>
+	<link rel="stylesheet" href="Fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="selector.js"></script>
+</head>
+<body>
+
+	<div id="win">
+		<p>Has Guanyat!!!</p>
+		<button id="reset" onclick="playAgain()">
+	    	<i class="fa fa-refresh"></i>
+	    </button>
+	</div>
+
+  <div id="box">
+  	<div id="timer"></div>
+  	<div id="cells"></div>
+
+		<script> changeImg("img/london/london.jpeg") </script>
+		<div id="options">
+  			<img src="img/london/london.jpeg" onclick="changeImg(this.src)">
+  			<img src="img/paris/paris.jpeg" onclick="changeImg(this.src)">
+  			<img src="img/roma/roma.jpeg" onclick="changeImg(this.src)">
+  	</div>
+	</div>
+</body>
+</html>
